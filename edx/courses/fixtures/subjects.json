@@ -1,0 +1,58 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Python Nanodegree",
+    "slug": "mathematics"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "AI Nanodegree",
+    "slug": "ai_nanodegree"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Machine Learning Nanodegree",
+    "slug": "ml_nanodegree"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Backend Developer Nanodegree",
+    "slug": "bd_nanodegree"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Frontend Developer Nanodegree",
+    "slug": "fd_nanodegree"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Java Nanodegree",
+    "slug": "java_nanodegree"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Data Analyst Nanodegree",
+    "slug": "da_nanodegree"
+  }
+}
+]
