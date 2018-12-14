@@ -1,6 +1,6 @@
 ## Conditions:
-=============
-Python - 3
+
+**Python - 3**
 
 ## Installation and Configuration Steps
 
