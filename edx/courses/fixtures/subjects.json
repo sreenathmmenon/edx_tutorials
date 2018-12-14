@@ -1,58 +1,128 @@
 [
 {
   "model": "courses.subject",
-  "pk": 1,
+  "pk": 19,
   "fields": {
-    "title": "Python Nanodegree",
-    "slug": "mathematics"
+    "title": "OpenStack",
+    "slug": "openstack"
   }
 },
 {
   "model": "courses.subject",
-  "pk": 2,
+  "pk": 20,
   "fields": {
-    "title": "AI Nanodegree",
-    "slug": "ai_nanodegree"
+    "title": "AWS",
+    "slug": "aws"
   }
 },
 {
   "model": "courses.subject",
-  "pk": 3,
+  "pk": 21,
   "fields": {
-    "title": "Machine Learning Nanodegree",
-    "slug": "ml_nanodegree"
+    "title": "Aritificial Intelligence",
+    "slug": "aritificial-intelligence"
   }
 },
 {
   "model": "courses.subject",
+  "pk": 22,
+  "fields": {
+    "title": "Machine Learning",
+    "slug": "machine-learning"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 23,
+  "fields": {
+    "title": "Data Analysis",
+    "slug": "data-analysis"
+  }
+},
+{
+  "model": "courses.course",
   "pk": 4,
   "fields": {
-    "title": "Backend Developer Nanodegree",
-    "slug": "bd_nanodegree"
+    "owner": 1,
+    "subject": 21,
+    "title": "Artificial Intelligence Nanodegree",
+    "slug": "artificial-intelligence-nanodegree",
+    "overview": "Artificial Intelligence Nanodegree Artificial Intelligence Nanodegree Artificial Intelligence Nanodegree Artificial Intelligence Nanodegree Artificial Intelligence Nanodegree",
+    "created": "2018-12-14T03:24:50.111Z",
+    "students": []
   }
 },
 {
-  "model": "courses.subject",
-  "pk": 4,
+  "model": "courses.course",
+  "pk": 5,
   "fields": {
-    "title": "Frontend Developer Nanodegree",
-    "slug": "fd_nanodegree"
+    "owner": 1,
+    "subject": 20,
+    "title": "AWS Certified Developer Associate",
+    "slug": "aws-certified-developer-associate",
+    "overview": "AWS Certified Developer Associate AWS Certified Developer Associate AWS Certified Developer Associate",
+    "created": "2018-12-14T03:25:28.955Z",
+    "students": []
   }
 },
 {
-  "model": "courses.subject",
-  "pk": 4,
+  "model": "courses.module",
+  "pk": 11,
   "fields": {
-    "title": "Java Nanodegree",
-    "slug": "java_nanodegree"
+    "course": 4,
+    "title": "Introduction",
+    "description": "Introduction",
+    "order": 0
   }
 },
 {
-  "model": "courses.subject",
-  "pk": 4,
+  "model": "courses.module",
+  "pk": 12,
   "fields": {
-    "title": "Data Analyst Nanodegree",
-    "slug": "da_nanodegree"
+    "course": 4,
+    "title": "Quiz",
+    "description": "",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 13,
+  "fields": {
+    "course": 4,
+    "title": "Project",
+    "description": "",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 14,
+  "fields": {
+    "course": 5,
+    "title": "Introduction",
+    "description": "",
+    "order": 0
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 15,
+  "fields": {
+    "course": 5,
+    "title": "AWS Fundamentals",
+    "description": "",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 16,
+  "fields": {
+    "course": 5,
+    "title": "AWS Services",
+    "description": "",
+    "order": 2
   }
 }
 ]
